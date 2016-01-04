@@ -1,0 +1,6 @@
+sage:
+  build: .
+  ports:
+    - "8080:80"
+  environment:
+    - APP_ENV=development
